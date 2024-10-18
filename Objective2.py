@@ -21,8 +21,8 @@ day_list = ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sa
 time_list = ["morning", "afternoon", "evening"]
 
 for day in range(6):
-    curr_day = day_list[day]
-    for time in range(2):
+    curr_day = day_list[day] #calling this as an indexed list later didnt work so ill just create a variable that changes every time the day iterates
+    for time in range(3): #IDK why this doesnt work when I set the range to 2, but, it works when I put 3! :/
         curr_mood = random.choice(mood_list)
         curr_time = time_list[time]
-        print(f"On {curr_day} you were {curr_mood}.")
+        print(f"On {curr_day} {curr_time} you were {curr_mood}.")

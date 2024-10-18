@@ -6,6 +6,10 @@
 
 import random
 
+# 1. Setup a list of days and moods
+# 2. Make a for loop using "in" to assign a random mood to each day in the list
+# 3. Print the output
+
 mood_list = ["Happy", "Sad", "Energetic", "Spooky"]
 
 day_list = ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
